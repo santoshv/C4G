@@ -1,6 +1,9 @@
 html{
     font-family: Arial;
 }
+body{
+    padding: 1%;
+}
 table, th, td{
     border:2px solid black;
 }
