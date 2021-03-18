@@ -5,7 +5,8 @@ body{
     padding: 1%;
 }
 .initialtext{
-	font-size: x-large;
+	/*font-size: x-large;*/
+	font-size: 1.3em;
 }
 .bannertext{
 	position: relative;
@@ -56,10 +57,12 @@ table, th, td{
     font-weight: bold;
     color: #009879;
 }
-/* Ppadding for mobile devices  */
+
+/* Padding for mobile devices  */
 td{
     padding:4px;
 }
+
 .schedule td{
 	width: 33.3%;
 }
