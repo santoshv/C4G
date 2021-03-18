@@ -57,15 +57,20 @@ table, th, td{
     font-weight: bold;
     color: #009879;
 }
-
-/* Padding for mobile devices  */
 td{
-    padding:4px;
+    padding:4px;	/* Mobile device padding */
+    vertical-align: top;
 }
-
 .schedule td{
 	width: 33.3%;
 }
 .assignment td{
 	width: 33.3%;
+}
+ul{
+  padding-left:2px;
+  margin-top: -2px;
+}
+li{
+  padding-left:-2px;
 }
