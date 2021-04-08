@@ -1,12 +1,12 @@
-ToDo - Updated Thu 4/1/2021
-(items removed when completed/approved) 
+Dante ToDo List - Updated Thu 4/8/2021
 
-Santosh:
-Contacting previous partners
-Interaction with Georgia Tech Admin, David Joyner, etc.
-Numerous other tasks
+Add poster creation to assignments page
 
-Dante:
-New doc: Partnership With C4G 
-Rubric: for Reflection Papers
-Grading Scheme example
+Canvas quiz video - sample
+
+Investigate Canvas capability - simultaneous video upload to YouTube
+
+Continue work on docs:
+- OMSC4G.html
+- partnering.html
+- assignments.docx > HTML
