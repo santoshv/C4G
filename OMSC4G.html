@@ -1,7 +1,7 @@
 <!---------------- BEGIN Page Template --------------->
 
-<!-- Thanks to Dom from dcode for the table styling code:
-https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l 
+<!-- 
+Responsive nav menu: thanks to w3schools.com 
 
 NOTE: Internal style was used to facilitate viewing with the GitHub/BitBucket
 HTML preview tool. External stylesheets incur a 40 second delay in rendering with
@@ -176,13 +176,12 @@ this tool.
         </section>
         
         <!-------------  Top menu HTML----------------->
-        <!--  Thanks to w3schools.com -->
 		<div class="topnav" id="myTopnav">
 			<a href="OMSC4G.html" class="active">Home</a>
 			<a href="assignments.docx">Assignments</a>
 			<a href="#prevproj.html">PreviousProjects</a>
 			<a href="#partnering.html">Partnering</a>	
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<a href="javascript:void(0);" class="icon" onclick="responseMenu()">
 				<i class="fa fa-bars"></i>
 			</a>
 		</div>
@@ -715,7 +714,7 @@ this tool.
     
     <!-------------- Script for nav menu -------------->
     <script>
-		function myFunction() {
+		function responseMenu() {
 			var x = document.getElementById("myTopnav");
 			if (x.className === "topnav") {
 				x.className += " responsive";

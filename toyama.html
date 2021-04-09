@@ -1,7 +1,7 @@
 <!---------------- BEGIN Page Template --------------->
 
-<!-- Thanks to Dom from dcode for the table styling code:
-https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l 
+<!-- 
+Responsive nav menu: thanks to w3schools.com 
 
 NOTE: Internal style was used to facilitate viewing with the GitHub/BitBucket
 HTML preview tool. External stylesheets incur a 40 second delay in rendering with
@@ -176,13 +176,12 @@ this tool.
         </section>
         
         <!-------------  Top menu HTML----------------->
-        <!--  Thanks to w3schools.com -->
 		<div class="topnav" id="myTopnav">
 			<a href="OMSC4G.html" class="active">Home</a>
 			<a href="assignments.docx">Assignments</a>
 			<a href="#prevproj.html">PreviousProjects</a>
 			<a href="#partnering.html">Partnering</a>	
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<a href="javascript:void(0);" class="icon" onclick="responseMenu()">
 				<i class="fa fa-bars"></i>
 			</a>
 		</div>
@@ -203,5 +202,18 @@ this tool.
     <!-- GT OneDrive version GT permissions issue
     <iframe src="https://gtvault-my.sharepoint.com/personal/dciolfi3_gatech_edu/_layouts/15/Doc.aspx?sourcedoc={3650eefd-5077-4262-97da-ea2daef81ba1}&amp;action=embedview&amp;wdAr=1.3333333333333333" width="350px" height="286px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>--> 
     <iframe src="https://onedrive.live.com/embed?resid=7DBA407A6E7CD332%211405&amp;authkey=%21AEz7Et3sPBdmnto&amp;em=2&amp;wdAr=1.3333333333333333" width="350px" height="286px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    
+    <!-------------- Script for nav menu -------------->
+    <script>
+		function responseMenu() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} 
+			else {
+				x.className = "topnav";
+			}
+		}
+	</script>
 </body>
 </html>
