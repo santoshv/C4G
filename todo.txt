@@ -9,6 +9,6 @@ DANTE TODO LIST - Updated Thu 4/14/2021
 
 QUESTIONS:
 - David: What is GT policy re: Canvas features? Best practices? E.g., Badgr Analytics?
-- David: Currently using GitHub for publicly-facing site; what is GT policy re: this?
+- David: Currently using GitHub for publicly-facing site; what is GT policy re: this? Does GT offer OneDrive account for course slides?
 - Santosh: Is the public site/Canvas 2-site strategy OK?
 - Santosh: Should we transition OMSC4G.html to Canvas, change to syllabus.docx, and move to Pages?
