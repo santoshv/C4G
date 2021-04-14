@@ -1,12 +1,14 @@
-Dante ToDo List - Updated Thu 4/8/2021
+DANTE TODO LIST - Updated Thu 4/14/2021
+- Add poster creation to assignments page - DONE
+- Canvas quiz video - sample - DONE
+- Investigate Canvas capability re: simultaneous video upload to YouTube - does not appear to be possible; must be a separate step (will continue to investigate) - DONE
+- OMSC4G.html - IN PROGRESS
+- partnering.html - IN PROGRESS (please also see below)
+- Create sample content in Canvas (personal Canvas account) - DONE
+- Public-facing site: Redo menu to include login to Canvas course - IN PROGRESS
 
-Add poster creation to assignments page
-
-Canvas quiz video - sample
-
-Investigate Canvas capability - simultaneous video upload to YouTube
-
-Continue work on docs:
-- OMSC4G.html
-- partnering.html
-- assignments.docx > HTML
+QUESTIONS:
+- David: What is GT policy re: Canvas features? Best practices? E.g., Badgr Analytics?
+- David: Currently using GitHub for publicly-facing site; what is GT policy re: this?
+- Santosh: Is the public site/Canvas 2-site strategy OK?
+- Santosh: Should we transition OMSC4G.html to Canvas, change to syllabus.docx, and move to Pages?
