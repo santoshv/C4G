@@ -1,11 +1,12 @@
-DANTE TODO LIST - Updated Thu 4/14/2021
+DANTE TODO - Updated Thu 4/14/2021:
+- Public-facing site: Redo menu to include login to Canvas course - DONE
+- Create miscellaneous sample content in personal Canvas account (incl. video quiz) - DONE
 - Add poster creation to assignments page - DONE
-- Canvas quiz video - sample - DONE
 - Investigate Canvas capability re: simultaneous video upload to YouTube - does not appear to be possible; must be a separate step (will continue to investigate) - DONE
+
+IN PROGRESS:
 - OMSC4G.html - IN PROGRESS
 - partnering.html - IN PROGRESS (please also see below)
-- Create sample content in Canvas (personal Canvas account) - DONE
-- Public-facing site: Redo menu to include login to Canvas course - IN PROGRESS
 
 QUESTIONS:
 - David: What is GT policy re: Canvas features? Best practices? E.g., Badgr Analytics?
