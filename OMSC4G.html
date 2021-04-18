@@ -12,72 +12,12 @@ this tool.
 <html lang="en">
 <head>
 	<title>OMSC4G</title>
-    <!--<link rel="stylesheet" href="style.css">-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!------------------ Top menu BEGINS ---------------->
+    <!------------------ Styles COMPUTER ---------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-		body {
-			margin: 0;
-			font-family: Arial, Helvetica, sans-serif;
-		}
-
-		.topnav {
-			overflow: hidden;
-			background-color: black; 
-		}
-
-		.topnav a {
-			float: left;
-			display: block;
-			color: #f2f2f2;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-			font-size: 17px;
-		}
-
-		.topnav a:hover {
-			background-color: #ddd; /* gray */
-			color: black;
-		}
-		
-		.topnav a.active {
-			background-color: #B3A369;
-			color: white;
-		}
-		
-		.topnav .icon {
-			display: none;
-		}
-
-		@media screen and (max-width: 600px) {
-			.topnav a:not(:first-child) {display: none;}
-			.topnav a.icon {
-				float: right;
-				display: block;
-			}
-		}
-
-		@media screen and (max-width: 600px) {
-			.topnav.responsive {position: relative;}
-			.topnav.responsive .icon {
-				position: absolute;
-				right: 0;
-				top: 0;
-			}
-			.topnav.responsive a {
-				float: none;
-				display: block;
-				text-align: left;
-			}
-		}	
-    </style>
-	<!------------------ Top menu ENDS ---------------->
-    
-    <style>
-    	*{
+   		*{
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
@@ -89,101 +29,234 @@ this tool.
 		}
 		body{	
 		    min-height: 100vh;
-		    padding: 1em 1em;
-		    width: 100%;
+		    padding: 0em 2em;
+		    width: 99%;
+		}
+		header{
+			margin-top: 0.5em;
+			width: 100%;
+		}
+		.resp_logo{
+			/*border: 3px solid orange;*/
+			position: relative;
+			top: 0.5em;
+			margin-right: 0.7em;
+			width: 44%;
+			margin-bottom: 1em;
+		}
+		#course{
+			float: left;
+			top: 1em;
+		}
+		#santosh{
+			float: left;
+			position: relative;
+			top: 0em;
+			font-weight: 500;
+		}
+		#dante{
+			float: left;
+			position: relative;
+			top: 0em;
+			font-weight: 500;
+		}
+		.resp_image{
+			float: left;
+			position: relative;
+			top: 0em;
+			width: 27%;
+			margin-bottom: 1em;
+		}
+		.topnav {
+			background-color: black; 
+			float: left;
+			margin-bottom: 0em;	
+			overflow: hidden;
+			position: relative;
+			top: -0.5em;	
+			width: 100%;
+		}
+		.topnav a {
+			float: left;	
+			color: #f2f2f2;
+			display: block;
+			font-size: 17px;	
+			padding: 14px 16px;
+			text-align: center;
+			text-decoration: none;
+		}
+		.topnav a:hover {
+			background-color: #ddd; /* gray */
+			color: black;
+		}	
+		.topnav a.active {
+			background-color: #B3A369;
+			color: white;
+		}		
+		.topnav .icon {
+			display: none;
+		}
+		.mainsection{
+			float: left;
+			position: relative;
+			top: 1em;
 		}
 		.initialtext{
 			font-size: 1.3em;
+		}	
+
+		/*---------------- Phone PORTRAIT --------------*/	
+		@media screen and (max-width: 376px) {	
+			.topnav a:not(:first-child) {display: none;}
+			.topnav a.icon {
+				float: right;
+				display: block;
+			}
 		}
-		/*.bannertext{
-			position: relative;
-			padding-top: 3%;
-		}*/
-		hr{
-			color: #B3A369;
-			background-color: #B3A369;
-			height: 10px;
-			width: 100%;
-		}
-		section{
-			margin-top: 1em;
-		}
-		table, th, td{
-		    border:2px solid black;
-		    font-size: 0.9em;
-		    table-layout : fixed;
-		    width: 100%;
-		}
-		.styled-table {
-		    border-collapse: collapse;
-		    font-family: sans-serif;
-		    min-width: 375px;
-		    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-		    width: 100%;
-		}
-		.styled-table thead tr {
-		    background-color: #B3A369;
-		    color: #ffffff;
-		    text-align: left;
-		}
-		.styled-table th,
-		.styled-table td {
-		    padding: 0.5em 0.5em;
-		    vertical-align: top;
-		}
-		.styled-table tbody tr {
-		    border-bottom: 1px solid #dddddd;
+		@media screen and (max-width: 376px) {
+			.resp_logo{
+				position: relative;
+				padding-bottom: 1em;
+				left: 0em;
+				top: 0em;
+				width: 100%;
+			}
+			#course{
+				margin-bottom: 2em;
+			}
+			#santosh{
+				position: relative;
+				top: -2em;
+				margin-bottom: 3em;			
+			}
+			#dante{
+				position: relative;
+				top: -5.5em;
+				margin-bottom: 0em;
+			}
+			.resp_image{
+				position: relative;
+				top: -4em;
+				width: 49.5%;
+				margin-bottom: -1em;
+			}
+			.topnav{
+				position: relative;
+				top: -2.5em;
+			}
+			.topnav.responsive {position: relative;}
+			.topnav.responsive .icon {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+			.topnav.responsive a {
+				float: none;
+				display: block;
+				text-align: left;
+			}
+			.mainsection{
+				float: left;
+				margin-top: -2em;
+			}
 		}
 		
-		.styled-table tbody tr:nth-of-type(even) {
-		    background-color: #f3f3f3;
+		/*---------------- Phone LANDSCAPE --------------*/	
+		@media screen and (min-width: 377px) and (max-width:813px) and (orientation: landscape) {	
+			.topnav a:not(:first-child) {display: none;}
+			.topnav a.icon {
+				float: right;
+				display: block;
+			}
 		}
-		.styled-table tbody tr:last-of-type {
-		    border-bottom: 2px solid #009879;
+		/*@media screen and (min-width: 377px) and (max-width:813px) and (orientation: landscape) {*/
+		@media only screen and (max-width: 815px) and (min-width: 378px){
+			.resp_logo{
+				/*position: relative;
+				padding-bottom: 1em;
+				left: 0em;*/
+				top: 1.5em;
+				width: 50%;
+				margin-right: 1%;
+				margin-bottom: 1em;
+			}
+			#course{
+				position: relative;
+				top: 1em;
+				float: left;
+				left: -0.6em;
+				margin-bottom: 0em;
+			}
+			#santosh{
+				position: relative;
+				left: 23em;
+				float: left;
+				top: -8em;
+				margin-bottom: 0em;			
+			}
+			#dante{
+				position: relative;
+				top: -8em;
+				float: left;
+				left: 0.1em;
+				margin-bottom: 2em;
+			}
+			.resp_image{
+				/*float: left;
+				top: -3em;*/
+				position: relative;
+				top: -6.7em;
+				left: 23em;
+				width: 24.5%;
+				margin-bottom: -1em;
+			}
+			.topnav{
+				position: relative;
+				top: -5em;
+			}
+			.topnav.responsive {position: relative;}
+			.topnav.responsive .icon {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+			.topnav.responsive a {
+				float: none;
+				display: block;
+				text-align: left;
+			}
+			.mainsection{
+				position: relative;
+				top: -3em;
+				float: left;
+			}
 		}
-		.styled-table tbody tr.active-row {
-		    font-weight: bold;
-		    color: #009879;
-		}
-		ul{
-		  padding-left: 0.5em;
-		  margin-top: -0.03em;
-		}
-		.grading ul, li{
-			padding-left: 1.0em;
-		}
-		/*.gradingproject li{
-			text-indent: -0.5em;
-		}*/
-		.grades ul, li{
-			padding-left: 1.0em;
-		}
-		.whead li{
-			margin-left: 0.5em;
-		}
-		li{
-		  padding-left: -1em;
-		  text-indent: -0.5em;
-		} 	
+		<!------------------ Top menu ENDS ---------------->
+
     </style>
 </head>
 <body>
-	<header style="margin-top:-1.0em;padding:0">
-		<img src="images/gt-logo-gold-33percent.png" alt="the words, Georgia Tech and a crown image, all in gold" align="left" style="position:relative;top:1.0em;margin-bottom:1em">
-		<!--  X<section class="bannertext">-->
-			<h3>CS6150 Fall 2021, Computing for Social Good</h3>
-	        <h4>Professor: Santosh Vempala, <a href="mailto:vempala@gatech.edu">vempala@gatech.edu</a></h4>
-	        <h5 style="margin-bottom:0.5em">Instructional Associate: Dante Ciolfi, <a href="mailto:dantec@gatech.edu">dantec@gatech.edu</a></h5>
+	<header>
+		<img src="images/gt-logo-gold.png" alt="the words, Georgia Tech and a crown image, all in gold" align="left" class="resp_logo">
+		<h3 id="course">CS6150 Fall 2021, Computing for Good</h3>
+        <h4 id="santosh">Professor: Santosh Vempala, <a href="mailto:vempala@gatech.edu">vempala@gatech.edu</a></h4>
+        <h5 id="dante" style="margin-bottom:0.5em">Instructional Associate: Dante Ciolfi, <a href="mailto:dantec@gatech.edu">dantec@gatech.edu</a></h5>
         
-        	<!--   style="position:relative;left:26em;top:-7em" -->
-	        <!--  <div id="img_container">-->
-	        	<img src="images/john_oboum_kenyan_farmer_202_100.png" alt="smiling kenyan farmer,  touching papaya in tree with extended arm">
-				<img src="images/wheelchair_cropped_202_100.jpg" alt="person with a wheelchair working at a computer"  style="position:relative;left:-0.3em">
+      	<!---- Kenyan farmer/person in wheelchair ---->
+       	<!--<img src="images/john_oboum_kenyan_farmer_202_100.png" alt="smiling kenyan farmer,  touching papaya in tree with extended arm">
+		<img src="images/wheelchair_cropped_202_100.jpg" alt="person with a wheelchair working at a computer"  style="position:relative;left:-0.3em">-->
+		
+		<!---- Haryan female farmers/female in wheelchair ---->
+		<!--<img src="images/haryana_farm_women_309_163.jpg" alt="Haryana, India farmer women in field, harvesting crop" class="resp_image" style="border:3px solid red;margin-right:0.5em;position:relative;left:0em">
+		<img src="images/wheelchair_female_309_163.jpg" alt="Black female computer programmer in wheelchair working on laptop computer" class="resp_image" style="border:3px solid red;margin-right:0.5em;position:relative;left:0em">-->
+		
+		<img src="images/haryana_farm_women_309_163.jpg" alt="Haryana, India farmer women in field, harvesting crop" class="resp_image" style="margin-right:1%">
+		<img src="images/wheelchair_female_309_163.jpg" alt="Black female computer programmer in wheelchair working on laptop computer" class="resp_image">
         
         <!-------------  Top menu HTML----------------->
 		<div class="topnav" id="myTopnav">
 			<a href="OMSC4G.html" class="active">Home</a>
-			<a href="studentprojects.html">Projects</a>
+			<a href="projects.html">Projects</a>
 			<a href="partnering.html">Partnering</a>
 			<a href="https://gatech.instructure.com/courses/221674" title="warning: clicking link opens new window" target="_blank">CourseLogin</a>
 			<a href="javascript:void(0);" class="icon" onclick="responseMenu()">
@@ -192,543 +265,15 @@ this tool.
 			<a href="https://www.webaccessibility.com" title="warning: clicking link opens new window" target="_blank"><img src="images/wcag2.1AA-blue.png" alt="Accessibility guidelines compliance logo" style="height:2em;width:5em"></a>
 		</div>      
 	</header>
-	<hr>
 <!---------------- END Page Template --------------->
-      <!--<style>
-        			/*#img_container{
-				position:relative;		
-				left:-30em;
-				top:30em;
-			}
-			#main_section{
-				position:relative;
-				left:0em;
-				top:8em;
-			}*/
-	</style>-->
 
-	<div id="main_section">
-		<!--<hr>-->
-		<section>
-	    	<h3>Welcome to C4G</h3>
-	        <p>
-	            <span class="initialtext">How can computing help </span>make the world a better place? Can we avoid wars, alleviate homelessness and improve global health using computers? What are the technical challenges that arise and what humanistic issues have to be taken into account and understood in the process? In this C4G course, we explore problems faced by developing countries and underserved populations from a computing perspective. The course will be project-centered with teams of students choosing project topics early in the semester and working towards a deployed solution by the end of the semester.
-	        </p><br>
-	        <h4>Course Description:</h4>
-	       	<h4>Learning Objectives:</h4>
-	        <h4>Prerequisites:</h4>
-	        <h4 style="display:inline">Grading:</h4> please see <a href="assignments.docx">Assignments and Grading</a> (onclick downloads DOCX file)
-	        <!-- <ul class="grades">
-	        	<li><span style="position:relative;left:-0.5em">Project: 50% (reflection papers)</span>
-	        		<ul>
-			        	<li>Milepost 1 - 10%</li>
-			        	<li>Milepost 2 - 10%</li>
-			        	<li>Milepost 3 - 10%</li>
-			        	<li>Project Deliverable Presentation - 20%</li>
-	        		</ul>
-	        	</li>
-		        <li>MidTerm Exam: 20% - All readings/material from 1st half of course</li>
-		        <li>Final Exam: 20% - All readings/material from 2nd half of course</li>
-		        <li>Participation: 10%</li>
-			</ul>
-			</section>-->
-	    </section><br>
-	 
-	 <!----------------- Schedule ---------------->   
-	    <h4>Schedule:</h4>
-	    <table class="styled-table">
-	    	<thead>
-		        <tr>
-		            <th>Topic</th>
-		            <th>Learning Objectives</th>
-		            <th>Materials</th>
-		            <!--<th>Assessments, Activities</th>-->
-		            <th>Tasks, Projects</th>
-		        </tr>
-	        </thead>
-	        <tbody>
-		        <tr>
-		            <td>
-		                Getting Started
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li>Take on-boarding quiz
-		                	<li>Take assessments via proctoring software
-		                	<li>Set up communication in Canvas
-		                	<li>Access video materials
-		                </ul>
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li><a href="#">On-boarding Quiz w/ ID verification (link unavailable)</a>
-		                	<li>Getting started completion block
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project Due:</strong> NA
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 1
-		            </td>
-		            <td>
-		                <ul>
-		                	<li>Introductions
-		                	<li>Course goals
-			                <li>Skills-Interests exercise
-			               	<li>Team formation
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>                
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project Due:</strong> Skills-Interests exercise
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 2
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li>Learning from <em>Successes</em>
-			                <li>Examples of successes, failures
-			                <li>Partner presentations
-			                <li>Brainstorm project goals
-			            </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead"> 
-		                	<li>The <a href="https://dl.acm.org/doi/pdf/10.1145/2909609.2909657" title="warning:click opens new tab" target="_blank">C4G BLIS experience</a>
-			                <li>CDC Global Health
-			                <li>Cathy Rice?
-			            </ul>
-		            </td>
-		            <td>
-		                <strong>Project Due:</strong> Project goals
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 3
-		            </td>
-		            <td>
-		            	<ul>
-			                <li>Learning from <em>Failures</em>
-			               	<li>Examples of failures, successes
-			                <li>Partner presentations
-			                <li>Finding partners in your community
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong><br>
-		                <ul class="whead">
-		                	<li>United Way of Atlanta
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project Due:</strong> Teams by end of the week
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 4
-		            </td>
-		            <td>
-		            	<ul>
-			                <li>Partner presentations
-			                <li>The role of technology
-			                <li>Brainstorm deliverables
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">               
-		                	<li><a href="https://www.amazon.com/Geek-Heresy-Rescuing-Social-Technology/dp/161039528X" title="Warning:click opens new tab" target="_blank">Geek Heresy: Rescuing Social Change from the Cult of Technology</a>
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead"> 
-		                	<li>Kentaro Toyama
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Assignment:</strong> Study of technology in an area of societal need
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 5
-		            </td>
-		            <td>
-			            <ul>
-				            <li>The Role of Technology in Society
-				            <li>How to Evaluate
-			            </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                	<li>Tapan Parikh, Neha Kumar
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> Goals, deliverables
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 6
-		            </td>
-		            <td>
-		            <ul>
-		            	<li>Project mini-presentations
-		            </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> TBA
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 7
-		            </td>
-		            <td>
-			            <ul>
-			            	<li>ICT4D, Sustainability
-			            </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong><br>
-		                <ul class="whead">
-		                	<li>Mike Best
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> Initial evaluations
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 8
-		            </td>
-		            <td>
-		            	<ul>
-			                <li>Sustainable Interfaces
-			                <li>Healthcare delivery
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		               		<li>Gregory Abowd
-		                	<li>Rosa Arriaga
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> TBA
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 9
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li>Social inequity
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> TBA
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 10
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li>Project evaluations
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> TBA
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 11
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li>Systems vs Human infrastructure
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                	<li>Pinar Keskinocak
-		                	<li>Julie Swann
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> TBA
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 12
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li>Connectivity
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                	<li><a href="https://smartech.gatech.edu/bitstream/handle/1853/48574/Sustainability Failures of Rural Telecenters Challenges from the Sustainable Access in Rural India %28SARI%29 Project.pdf?sequence=1&isAllowed=y" title="Warning:click opens new tab" target="_blank">The SARI project</a>
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> TBA
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 13
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li>Project feedback session
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> Demo
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 14
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li>Project demos, evaluations
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> TBA
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Lesson 15
-		            </td>
-		            <td>
-		            	<ul>
-		                	<li>Project presentations
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Required Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		                <strong>Optional Suggested Readings:</strong>
-		                <ul class="whead">
-		                </ul>
-		            </td>
-		            <td>
-		                <strong>Project due:</strong> Report
-		            </td>
-		        </tr>
-	        </tbody>
-	    </table><br>
-	
-	<!----------------- Assignments ---------------->
-	    <h4>Graded Assignments and Distribution:</h4>
-	    <table class="styled-table">
-	    	<thead>
-		        <tr>
-		            <th>Assignment</th>
-		            <th>Weight</th>
-		            <th>Brief Description</th>
-		        </tr>
-	        </thead>
-	        <tbody>
-		        <tr>
-		            <td>
-		                On-Boarding Quiz (required to verify identity using proctoring software)On-Boarding Quiz)
-		            </td>
-		            <td>
-		                0% (required to verify identity using proctoring software)
-		            </td>
-		            <td>
-		                Brief quiz to check functionality
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Assignment Group 1
-		            </td>
-		            <td>
-		                %
-		            </td>
-		            <td>
-		                Content coming soon
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Assignment Group 2
-		            </td>
-		            <td>
-		                %
-		            </td>
-		            <td>
-		                Content coming soon
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Assignment Group 3
-		            </td>
-		            <td>
-		                %
-		            </td>
-		            <td>
-		                Content coming soon
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Assignment Group 4
-		            </td>
-		            <td>
-		                %
-		            </td>
-		            <td>
-		                Content coming soon
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Assignment Group 5
-		            </td>
-		            <td>
-		                %
-		            </td>
-		            <td>
-		                Content coming soon
-		            </td>
-		        </tr>
-		        <tr>
-		            <td>
-		                Assignment Group 6
-		            </td>
-		            <td>
-		                %
-		            </td>
-		            <td>
-		                Content coming soon
-		            </td>
-		        </tr>
-	        </tbody>
-	    </table><br>
-	    
-	    <section>
-	        <h4>Course Resources:</h4>
-	        Text: <a href="https://www.amazon.com/Geek-Heresy-Rescuing-Social-Technology/dp/161039528X" title="Warning:click opens new tab" target="_blank">Geek Heresy: Rescuing Social Change from the Cult of Technology</a><br>
-	        <!--Talks: <a href="http://kentarotoyama.org/talks/2010%2006%2023%20Ten%20Myths%20of%20ICT4D%20-%20Toyama.ppt">10 Myths of ICT4D (right-click to save PPTX; disregard warning)</a><br>-->
-	        <!--Talks: <a href="slides/myths_ict4d.ppt">10 Myths of ICT4D</a><br>-->
-	        Talks: <a href="toyama.html">10 Myths of ICT4D</a><br>
-	        Papers:
-	        <a href="https://ieeexplore.ieee.org/abstract/document/5426674">Design and deployment of a blood safety monitoring tool (PDF requires GT account sign-in)</a>, 
-	        <a href="https://dl.acm.org/doi/pdf/10.1145/2909609.2909657" title="Warning:click opens new tab" target="_blank">The C4G BLIS experience</a>, 
-	        <a href="https://smartech.gatech.edu/bitstream/handle/1853/48574/Sustainability%20Failures%20of%20Rural%20Telecenters%20Challenges%20from%20the%20Sustainable%20Access%20in%20Rural%20India%20%28SARI%29%20Project.pdf?sequence=1&isAllowed=y" title="Warning:click opens new tab" target="_blank">The SARI project</a>
-	        <!--<br><br>
-	        <footnote><h5>* GT Proxy Tool Setup</h5></footnote>
-	        <small>
-	        	Log in to GT account<br>
-				Create new browser bookmark with URL below and name it, e.g., "GT Proxy Link":<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;javascript:void(location.href='https://go.openathens.net/redirector/gatech.edu?url='+location.href)<br>
-				While on web page with research paper's PDF link, click GT Proxy link bookmark<br>
-				GT Access confirmation appears at top of page<br>
-				Click PDF link to get access to full PDF<br>
-				<img src="images/proxy_conf_18percent.png">
-			</small>-->		
-	    </section>
-	</div>
-	<!---------------- End Main Section --------------->
-	    
+	<section class="mainsection">
+    	<h3>Welcome to C4G</h3>
+        <div>
+            <span class="initialtext">How can computing help </span>make the world a better place? Can we avoid wars, alleviate homelessness and improve global health using computers? What are the technical challenges that arise and what humanistic issues have to be taken into account and understood in the process? In this C4G course, we explore problems faced by developing countries and underserved populations from a computing perspective. The course will be project-centered with teams of students choosing project topics early in the semester and working towards a deployed solution by the end of the semester.
+        </div>
+   	</section>
+    
 	<!-------------- Script for nav menu -------------->
 	<script>
 		function responseMenu() {
