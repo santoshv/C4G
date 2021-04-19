@@ -243,33 +243,42 @@ this tool.
 
 		/*---------------- iPad Portrait ---------------*/
 		@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+			body{
+				width: 99.5vw;
+			}
 			#course{
 				position: relative;
-				left: 18.7em; 
+				left: 18.9em; 
 				top: -7.5em;
 			}
 			#santosh{
 				position: relative;
-				left: 20.5em; 
+				left: 20.7em; 
 				top: -8.2em;
 			}
 			#dante{
 				position: relative;
-				left: 27em; 
+				left: 27.5em; 
 				top: -9.5em;
 			}
 			.resp_image{
 				position: relative;
 				left: 0.8em; 
 				top: -6.5em;
+				width: 24.6%;
 			}
 		}
 		
 		/*---------------- iPad Landscape --------------*/
 		@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-			/* For landscape layouts only */
+			body{
+				padding-top: 2vw;
+				width: 99vw;
+			}
+			.resp_image{
+				width: 26.8%;
+			}
 		}
-
     </style>
 </head>
 <body>
