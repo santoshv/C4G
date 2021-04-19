@@ -103,9 +103,11 @@ this tool.
 		}
 		.initialtext{
 			font-size: 1.3em;
-		}	
-
-		/*---------------- Phone PORTRAIT --------------*/	
+		}
+		
+		/*--------------- IOS: 376, 377-813 -------------*/
+		
+		/*---------------- iPhone Portrait --------------*/	
 		@media screen and (max-width: 376px) {	
 			.topnav a:not(:first-child) {display: none;}
 			.topnav a.icon {
@@ -161,7 +163,7 @@ this tool.
 			}
 		}
 		
-		/*---------------- Phone LANDSCAPE --------------*/	
+		/*---------------- iPhone Landscape --------------*/	
 		@media screen and (min-width: 377px) and (max-width:813px) and (orientation: landscape) {	
 			.topnav a:not(:first-child) {display: none;}
 			.topnav a.icon {
@@ -231,7 +233,42 @@ this tool.
 				float: left;
 			}
 		}
-		<!------------------ Top menu ENDS ---------------->
+		
+		/* iPad media query pixel dimensions: Thanks to: 
+		https://css-tricks.com/snippets/css/ipad-specific-css/ */
+		
+		/*---------------- iPad General ---------------
+		@media only screen and (device-width: 768px) {
+		}*/
+
+		/*---------------- iPad Portrait ---------------*/
+		@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+			#course{
+				position: relative;
+				left: 18.5em; 
+				top: -7.5em;
+			}
+			#santosh{
+				position: relative;
+				left: 21.7em; 
+				top: -8.2em;
+			}
+			#dante{
+				position: relative;
+				left: 26.2em; 
+				top: -9.5em;
+			}
+			.resp_image{
+				position: relative;
+				left: 0.8em; 
+				top: -6.5em;
+			}
+		}
+		
+		/*---------------- iPad Landscape --------------*/
+		@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+			/* For landscape layouts only */
+		}
 
     </style>
 </head>
