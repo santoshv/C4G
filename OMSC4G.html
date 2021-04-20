@@ -236,35 +236,57 @@ this tool.
 		https://css-tricks.com/snippets/css/ipad-specific-css/ */
 
 		/*---------------- iPad Portrait ---------------*/
-		@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+		@media only screen and (min-device-width: 767px) and (max-device-width: 1025px) and (orientation:portrait) {
 			body{
 				width: 99.5vw;
 			}
+			img.resp_logo{
+				margin-right: -0em;
+				max-width: 50%;
+			}
 			#course{
 				position: relative;
-				left: 18.9em; 
-				top: -7.5em;
+				left: 0.2em; 
+				top: 0.3em;
 			}
 			#santosh{
 				position: relative;
-				left: 20.7em; 
+				left: 20.6em; 
 				top: -8.2em;
 			}
 			#dante{
 				position: relative;
-				left: 27.5em; 
+				left: 27.3em; 
 				top: -9.5em;
 			}
 			.resp_image{
 				position: relative;
-				left: 0.8em; 
-				top: -6.5em;
-				width: 24.6%;
+				/*float: left;*/
+				left: -18em; 
+				margin-right: 0.2em;
+				top: -6.8em;
+				max-width: 24.5%;
+			}
+			#farmers{
+				position: relative;
+				left: 0.9em;
+			}
+			#programmer{
+				position: relative;
+				left: 0.9em;
+			}
+			.topnav{
+				position: relative;
+				top: -7.5em;
+			}
+			.mainsection{
+				position: relative;
+				top: -5.5em;
 			}
 		}
 		
 		/*---------------- iPad Landscape --------------*/
-		@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+		@media only screen and (max-device-width: 1024px) and (orientation:landscape) {
 			body{
 				padding-top: 2vw;
 				width: 99vw;
@@ -311,17 +333,9 @@ this tool.
 		<h3 id="course">CS6150 Fall 2021, Computing for Good</h3>
         <h4 id="santosh">Professor: Santosh Vempala, <a href="mailto:vempala@gatech.edu">vempala@gatech.edu</a></h4>
         <h5 id="dante" style="margin-bottom:0.5em">Instructional Associate: Dante Ciolfi, <a href="mailto:dantec@gatech.edu">dantec@gatech.edu</a></h5>
-        
-      	<!---- Kenyan farmer/person in wheelchair ---->
-       	<!--<img src="images/john_oboum_kenyan_farmer_202_100.png" alt="smiling kenyan farmer,  touching papaya in tree with extended arm">
-		<img src="images/wheelchair_cropped_202_100.jpg" alt="person with a wheelchair working at a computer"  style="position:relative;left:-0.3em">-->
 		
-		<!---- Haryan female farmers/female in wheelchair ---->
-		<!--<img src="images/haryana_farm_women_309_163.jpg" alt="Haryana, India farmer women in field, harvesting crop" class="resp_image" style="border:3px solid red;margin-right:0.5em;position:relative;left:0em">
-		<img src="images/wheelchair_female_309_163.jpg" alt="Black female computer programmer in wheelchair working on laptop computer" class="resp_image" style="border:3px solid red;margin-right:0.5em;position:relative;left:0em">-->
-		
-		<img src="images/haryana_farm_women_309_163.jpg" alt="Haryana, India farmer women in field, harvesting crop" class="resp_image" style="margin-right:1%">
-		<img src="images/wheelchair_female_309_163.jpg" alt="Black female computer programmer in wheelchair working on laptop computer" class="resp_image">
+		<img src="images/haryana_farm_women_309_163.jpg" alt="Haryana, India farmer women in field, harvesting crop" class="resp_image" id="farmers" style="margin-right:1%">
+		<img src="images/wheelchair_female_309_163.jpg" alt="Black female computer programmer in wheelchair working on laptop computer" class="resp_image" id="programmer">
         
         <!-------------  Top menu HTML----------------->
 		<div class="topnav" id="myTopnav">
