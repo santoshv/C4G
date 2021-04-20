@@ -188,7 +188,57 @@ this tool.
 		li{
 		  padding-left: -1em;
 		  text-indent: -0.5em;
-		} 	
+		} 
+		
+		/*---------------- iPad Portrait ---------------*/
+		@media only screen and (min-device-width: 767px) and (max-device-width: 1025px) and (orientation:portrait) {
+			body{
+				width: 99.5vw;
+			}
+			img.resp_logo{
+				margin-right: -0em;
+				max-width: 50%;
+			}
+			#course{
+				position: relative;
+				left: 0.2em; 
+				top: 0.3em;
+			}
+			#santosh{
+				position: relative;
+				left: 20.6em; 
+				top: -8.2em;
+			}
+			#dante{
+				position: relative;
+				left: 27.3em; 
+				top: -9.5em;
+			}
+			.resp_image{
+				position: relative;
+				/*float: left;*/
+				left: -18em; 
+				margin-right: 0.2em;
+				top: -6.8em;
+				max-width: 24.5%;
+			}
+			#farmers{
+				position: relative;
+				left: 0.9em;
+			}
+			#programmer{
+				position: relative;
+				left: 0.9em;
+			}
+			.topnav{
+				position: relative;
+				top: -7.5em;
+			}
+			.mainsection{
+				position: relative;
+				top: -5.5em;
+			}
+		}	
     </style>
 </head>
 <body>
@@ -219,7 +269,7 @@ this tool.
 			<a href="https://www.webaccessibility.com" title="warning: clicking link opens new window" target="_blank"><img src="images/wcag2.1AA-blue.png" alt="Accessibility guidelines compliance logo" style="height:2em;width:5em"></a>
 		</div>      
 	</header>
-	<hr>
+	<!--<hr>-->
 <!---------------- END Page Template --------------->
 
 	<div id="main_section">
