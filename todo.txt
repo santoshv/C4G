@@ -1,14 +1,18 @@
-DANTE TODO - Updated Thu 4/14/2021:
+DANTE TODO - 5/20/2021
+- Augment project rubric in assignments.docx: include accessibility tools assessment (WCAG, W3C HTML/CSS conformance) - DONE
+- Add above tools to resources section of course site(s) - DONE
+- Add to assignments.docx: Project Process details (rubric, team formation process) - DONE
+- ToDo doc moved to root directory of repo - DONE
+
+DANTE TODO - 4/14/2021 - DONE (site redesign in progress; current site: https://computingcenterforsocialgood.org/c4g2)
 - Public-facing site: Redo menu to include login to Canvas course - DONE
 - Create miscellaneous sample content in personal Canvas account (incl. video quiz) - DONE
 - Add poster creation to assignments page - DONE
 - Investigate Canvas capability re: simultaneous video upload to YouTube - does not appear to be possible; must be a separate step (will continue to investigate) - DONE
+- OMSC4G.html - DONE (redesign in process)
+- partnering.html - DONE (form added to link; part of site redesign)
 
-IN PROGRESS:
-- OMSC4G.html - IN PROGRESS
-- partnering.html - IN PROGRESS (please also see below)
-
-QUESTIONS:
+QUESTIONS 4/14/2021 - DONE
 - David: What is GT policy re: Canvas features? Best practices? E.g., Badgr Analytics?
 - David: Currently using GitHub for publicly-facing site; what is GT policy re: this? Does GT offer OneDrive account for course slides?
 - Santosh: Is the public site/Canvas 2-site strategy OK?
